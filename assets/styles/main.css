@@ -8,6 +8,9 @@ body{
 }
 :root{
   --text-color:#212832;
+  --background-color: #DF6951;
+  --te-color: #5E6282;
+  ;
 }
 header .logo{
   margin-top: 30px;
@@ -36,4 +39,66 @@ header .logo .nav a img{
   width: 9px;
   height: 4px;
   color: var(--text-color);
+}
+section .contenar{
+  display: flex;
+  margin: 100px;
+}
+section .contenar .Destinations{
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: var(--background-color);
+}
+section .contenar h1{
+  padding: 25px;
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 89px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: var(--text-color);
+}
+section .contenar p{
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: var(--te-color);
+}
+section .contenar .input{
+  display: flex;
+  margin: 25px;
+}
+section .contenar  input{
+  margin: 15px;
+  border-radius: 10px;
+  border: solid 1px ;
+  width: 170px;
+  height: 60px;
+  background-color: var(--background-color);
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.9px;
+  text-align: center;
+}
+section .contenar  span{
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25.5px;
+  text-align: left;
+  display: flex;
+  margin: 15px;
+}
+section .contenar  span img{
+  width: 52px;
+  height: 52px;
+}
+section .contenar .travel_photo img{
+  width: 765px;
+  height: 764px;
 }
