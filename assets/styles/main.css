@@ -102,3 +102,57 @@ section .contenar .travel_photo img{
   width: 765px;
   height: 764px;
 }
+section .services {
+  margin: 50px 20px;
+  text-align: center;
+}
+section .services p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #5E6282;
+  margin-bottom: 10px;
+}
+section .services h2 {
+  font-family: "Volkhov", serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #212832;
+  margin-bottom: 40px;
+}
+section .services .Parts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+section .services .Parts .Service {
+  text-align: center;
+  padding: 20px;
+}
+section .services .Parts .Service img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px auto;
+  width: 60px;
+  height: 60px;
+}
+section .services .Parts .Service h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #1E1E1E;
+  margin: 10px 0;
+}
+section .services .Parts .Service p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #5E6282;
+  margin: 0;
+}
